@@ -1,0 +1,17 @@
+/* 
+    Document   : astyle
+    Created on : 21/05/2012, 03:13:40 PM
+    Author     : hawk
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    color: orange;
+    opacity: 0.9;
+}

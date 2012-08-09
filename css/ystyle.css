@@ -1,0 +1,286 @@
+/* Page settings background-color: #39708A;*/
+html, body {
+    font: 12px sans-serif, times;
+    margin: 0; padding: 0;
+    height: 100%;
+}
+
+#pagina {
+    min-height: 100%;
+    position: relative;
+}
+
+#wrap{
+    width: 800px;
+    margin: auto;
+}
+
+#header {
+    padding-top: 10px;
+    background-color: #ffc20e;
+    height: 100px;
+}
+
+#conference-title{
+    width: 800px;
+    font-size: 16px;
+    padding-top: 10px;
+    margin: auto;
+    padding-left: 15px;
+    background-image: none;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#conference-title p {
+    width: 400px;
+}
+
+#contenido {
+    width: 800px;
+    padding-top: 15px;
+    margin: auto;
+    padding-bottom: 125px;
+}
+
+#footer {
+    background-color: #ffc20e;
+    bottom: 0;
+    height: 110px;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+}
+#plataform {
+    margin: auto;
+    padding-top: 25px;
+    text-align: center
+}
+
+h1.titulo {
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 28px;
+    font-family: arial;
+    color: #003399;
+    border-bottom: 1px dotted #000;
+    margin-bottom: 0.5em;
+}
+
+a:link, a:visited {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#top #cintilla {
+    color: #fff;
+    font-size: 10px;
+}
+
+#top #cintilla a {
+    color: #fff;
+}
+
+#bar {
+    background: #d2e0ee url("images/bar4.png") no-repeat;
+    min-height: 300px;
+    top: 137px;
+    left: 570px;
+    width: 190px;
+    padding-top: 27px;
+    padding-left: 12px;
+}
+
+#bar2 {
+    min-height: 300px;
+    top: 137px; 
+    left: 570px; 
+    width: 190px; 
+    padding-top: 27px; 
+    padding-left: 12px;
+}
+
+.elementocentrado {
+    text-align: center
+}
+
+/* menu stuff */
+
+#opmtitle{
+    color:#333;
+    font-size: 12px;
+}
+
+#opmtitle a {
+    color: #333; 
+    text-decoration: none; 
+    font-size: 12px;
+}
+
+#opmtitle a:hover {
+    color: #f90;
+    border: 0px;
+}
+#opm {max-width: 155px; color: #666; padding: 2px; border: 1px; font-size: 12px; padding-left: 10px;}
+#opm:hover {background: #dfe9f3; border: 1px solid #ddd; color: #000;}
+#opm:hover a {color: #000; border:0px;}
+#opm a {text-decoration: none; color: #666; border:0px; font-size: 10px;}
+#opm a:hover {color: #8eb3d8;}
+#seccion {margin-bottom: 10px;}
+#foto_frame {margin:10px;}
+#seccion #titulo {background: #fff url(../images/bullet.png) no-repeat; border-bottom: 1px dotted #999; display: block;
+width: 235px; color: #666; font-size: 16px; padding-left: 14px; margin-bottom: 10px;}
+#seccion ul {padding: 0px; margin: 0px;}
+#seccion li {list-style-type: none; background: #fff url(../images/minibullet.png) no-repeat; padding-left: 12px; font-size: 12px;}
+
+
+/* Formulario Registro */
+div .formaregistro{
+    width: 600px;
+    margin: 0 auto 0 auto;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto
+}
+
+td {
+    height: 32px;
+    width: 200px;
+}
+
+form select {
+    width: 205px
+}
+
+div .formcontainer {
+    margin: 0 auto 0 auto;
+    height: 30px;
+    width: 500px
+}
+
+label {
+    width: 200px;
+    float: left;
+    padding-left: 50px
+}
+
+input { 
+    background-color: #F7F7F7; 
+    color: #000; 
+    height: 17px; 
+    width: 200px;
+    border-radius: 5px;
+}
+
+select  {
+    width: 205px;
+    background-color: #F7F7F7; 
+    color: #000; 
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type="button"], input[type="submit"]  {
+    color: #000; height: 30px
+}
+
+.requerido {
+    background-image: url(../images/buttons/services.png);
+    background-repeat: no-repeat; 
+    background-position: left;
+}
+
+.campo-info{
+    font-size: 10px;
+    color: red;
+    width: 40px;
+    float: right;
+    padding: 0;
+}
+
+#sucess {
+    margin: 20 auto 20 auto;
+    display: block;
+}
+
+/* Fin formulario registro */
+
+#mensajes{
+    color: red;
+}
+
+/* form stuff 
+input[type="button"], input[type="submit"]  { background-color: #f7f7f7; color: #000; border: 1px solid #999;
+border-top: 1px solid #ddd; border-left: 1px solid #ddd; font-weight: bold; margin-left: 2px; margin-right: 2px;}
+input[type="button"]:hover, input[type="submit"]:hover {background-color: #fff; color: #000;}
+input[type="button"]:active, input[type="submit"]:active { background-color: #eee; color: #000; border: 1px solid #999;}
+input[type="text"], input[type="password"], textarea { background-color: #fafafa; border: 1px solid #ddd;
+border-top: 1px solid #999; border-left: 1px solid #999; padding:3px;}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus  { background-color: #fff; border: 1px solid #666;}
+textarea { width: inherit;}
+comas stuff */
+
+.errorfield{border-color: red; border-style: solid; border-width: 3px; background-image: url("../images/buttons/important.png"); background-repeat: no-repeat; background-position: right}
+.validatefield{border-color: green; font-family: ubuntu;border-width: 3px; background-image: url("../images/buttons/ok.png"); background-repeat: no-repeat; background-position: right}
+
+#container #comas {padding-left: 30px; padding-right: 30px; width: 730px;}
+p.yacomas_error {font-weight: bold; text-align: center; color: red;}
+p.yacomas_msg {font-weight:bold;text-align: center;}
+p.ponente {margin-top: 0px; padding-top: 10px; font-size: 18px; font-family: arial; text-align: justyfy;}
+table.name {width: 30%;}
+td.input {width: 55%;}
+td.error {width: 20%;}
+td.resultado {width:55%; color:darkslategray;}
+#none {text-decoration: none; border: 0px; margin: 0px; padding: 0px;}
+/*a#none:hover {text-decoration: none;}*/
+tr.verde td {background: #8FBC8F;}
+tr.rojo td {background: #e57272;}
+a.azul {/*  color: #0066cc;*/ color: #000000; text-decoration: none;}
+a.azul:hover {color: #39708a; border-bottom: 1px dotted #3da8cc;}
+a.rojo {color: #0000FF; text-decoration: none;}
+a.rojo:hover {color: #CC0000;border-bottom: 1px dotted #3da8cc;}
+a.ponente {color: darkblue; text-decoration: none;}
+a.ponente:hover {border-bottom: 1px dotted #ffc20e;}
+a.precaucion {color: #FF0000; text-decoration: none;}
+a.precaucion:hover {color: #CC0000; border-bottom: 1px dotted #3da8cc;}
+a.verde {color: #006600; text-decoration: none;}
+a.verde:hover {color: #336633;border-bottom: 1px dotted #3da8cc;}
+a.boton {color: #000000; text-decoration: none; background-color: #f7f7f7; font-weight: bold;}
+a.boton:hover {color: #000000; border-bottom: 1px dotted #3da8cc; background: #fff;}
+H4  { text-align: right }
+p.yacomas_login{font-weight:bold; text-align: right; margin-top: 0; margin-bottom: 0;}
+#message{width: 200px; margin: auto; padding:5px; color:white; text-align:center;}
+#message.info {background: #000077;}
+#message.error {background: #770000;}
+
+/** Planner**/
+
+table.planner td, table.planner th {
+    -moz-border-radius:3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-align:center;
+    padding:2px;
+}
+
+table.planner td .person {font-style:italic; font-weight:normal}
+table.planner td .event {font-weight:bolder;}
+table.planner th {background-color: #EEEEEC; /*Aluminium*/}
+table.planner td.time {background-color: #EEEEEC; /*Aluminium*/}
+td.type_empty {background-color: #EEEEEC; /*Aluminium*/}
+td.type_evento_organizacion {background-color:#729FCF; /*Skyblue*/}
+td.type_conferencia_magistral {background-color:#8AE234; /*verde*/}
+td.type_conferencia {background-color:#FCE94F; /*Butter*/}
+td.type_taller {background-color:#FCAF3E; /*Orange*/}
+td.type_tutorial {background-color:#AD7FA8; /*Plum*/}
+td.type_examen {background-color:#E9B96E; /*Chocolate*/}
+td.type_platica {background-color: #EF2929; /*Scarlet Red*/}
