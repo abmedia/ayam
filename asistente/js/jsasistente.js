@@ -122,7 +122,7 @@ function validarDatos(){
 }
 
 function contarErrorClass(){
-    formulario = document.formaregistro;
+    formulario = document.nuevoasistente;
     error = false;
     for (i = 0; i < formulario.elements.length; i++)
         if (formulario.elements[i].className == "errorfield"){

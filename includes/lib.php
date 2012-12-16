@@ -350,5 +350,5 @@ function jqueryUiPrint() {
     echo '<link type="text/css" href="../css/flick/jquery-ui-1.8.18.custom.css" rel="stylesheet" />';
 }
 
-$_SESSION['YACOMASVARS'][$last] = time();
+//$_SESSION['YACOMASVARS'][$last] = time();
 ?>

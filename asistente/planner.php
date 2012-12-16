@@ -34,7 +34,7 @@ echo $Planner->createLegend();
 retorno();
 retorno();
 print '<center>';
-print '<input type="button" value="Volver al menu" onClick=location.href="'.$fslpath.$rootpath.'/asistente/menuasistente.php">
+print '<input type="button" value="Volver al menu" onClick=location.href="'.$conference_link'/asistente/menuasistente.php">
 </center>';
 retorno();
 retorno();

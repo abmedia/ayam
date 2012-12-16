@@ -1,19 +1,19 @@
 <?php 
-include_once "../includes/conf.inc.php";
+//include_once "../includes/conf.inc.php";
 switch ($_GET['opc']) {
-    case MASISTENTE: include "Masistente.php";
+    case "actualizar": include "Masistente.php";
         break;
-    case LEVENTOS: include "planner.php";
+    case "calendario": include "planner.php";
         break;
-    case LTALLERES: include "Ltalleres.php";
+    case "talleres": include "Ltalleres.php";
         break;
-    case LTALLERESREG: include "Ltalleres-reg.php";
+    case "inscribirse": include "Ltalleres-reg.php";
         break;
-    case ENCUESTA: include "encuesta.php";
+    case "encuesta": include "encuesta.php";
         break;
-    case HOJAREGISTRO: include "HojaRegistro.php";
+    case "hoja": include "HojaRegistro.php";
         break;
-    case FICHAREGISTRO: include "crearficharegistro.php";
+    case "imprimirficha": include "crearficharegistro.php";
         break;
 }
 ?>

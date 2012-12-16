@@ -24,7 +24,7 @@ if ($stat_array==0) {
     <p class="yacomas_error"><h2>La inscripci&oacute;n a talleres se encuentra cerrada. <h2> </p>
     <div class="elementocentrado" style="height: 16px;">
         <input type="button" value="Continuar" onClick=
-            location.href="<?php print "$fslpath$rootpath/asistente/menuasistente.php"; ?>">
+            location.href="<?php print "$conference_link/asistente/menuasistente.php"; ?>">
     </div>
 <?php
     imprimePie();
@@ -391,7 +391,7 @@ if (($TAinscritos < $max_inscripcionTA) || ($TUinscritos < $max_inscripcionTU)) 
 }
 
 print '<input type="button" value="Volver al menu" onClick=
-    location.href="'.$fslpath.$rootpath.'/asistente/menuasistente.php">
+    location.href="'.$conference_link.'/asistente/menuasistente.php">
 	</center></form>';
 imprimePie();
 ?>

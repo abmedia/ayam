@@ -100,7 +100,7 @@ while ($Qf_evento = mysql_fetch_array($fechaRecords))
 	retorno();
 	retorno();
 	print '<center>
-	<input type="button" value="Volver al menu" onClick=location.href="'.$fslpath.$rootpath.'/asistente/menuasistente.php">
+	<input type="button" value="Volver al menu" onClick=location.href="'.$conference_link.'/asistente/menuasistente.php">
 	</center>';
 imprimeCajaBottom();
 imprimePie();

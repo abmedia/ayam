@@ -458,7 +458,7 @@ print ' </select>
 <center>
 <div class="formcontainer">
     <input type="submit" name="submit" value="Actualizar">&nbsp;&nbsp;
-    <input type="button" value="Volver al Menu" onClick=location.href="'.$fslpath.$rootpath.'/asistente/menuasistente.php">
+    <input type="button" value="Volver al Menu" onClick=location.href="'.$conference_link.'/asistente/menuasistente.php">
 </div>
 </center>
 

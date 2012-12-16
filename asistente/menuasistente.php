@@ -16,11 +16,11 @@ print '<P class="yacomas_login">Login: '.$_SESSION['YACOMASVARS']['asilogin'].'&
 print '<hr>';
 ?>
 <br>
-<div class="formcontainer"><a href="asistente.php?opc=<?php print MASISTENTE; ?>">Modificar mis datos</a></div>
-<div class="formcontainer"><a href="asistente.php?opc=<?php print LEVENTOS; ?>">Agenda de Actividades</a></div>
-<div class="formcontainer"><a href="asistente.php?opc=<?php print LTALLERES; ?>">Listar/Inscribirme a talleres y tutoriales</a></div>
-<div class="formcontainer"><a href="asistente.php?opc=<?php print LTALLERESREG; ?>">Listar/Darme de baja de talleres y tutoriales registrados</a></div>
-<div class="formcontainer"><a href="asistente.php?opc=<?php print HOJAREGISTRO; ?>">Imprimir hoja de registro</a></div>
+<div class="formcontainer"><a href="asistente.php?opc=actualizar">Modificar mis datos</a></div>
+<div class="formcontainer"><a href="asistente.php?opc=calendario">Agenda de Actividades</a></div>
+<div class="formcontainer"><a href="asistente.php?opc=talleres">Listar/Inscribirme a talleres y tutoriales</a></div>
+<div class="formcontainer"><a href="asistente.php?opc=inscribirse">Listar/Darme de baja de talleres y tutoriales registrados</a></div>
+<div class="formcontainer"><a href="asistente.php?opc=hoja">Imprimir hoja de registro</a></div>
 
 
 <?php
